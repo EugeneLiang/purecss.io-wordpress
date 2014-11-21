@@ -15,8 +15,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
     <!--[if lte IE 8]>
-        <link rel="stylesheet" href="/combo/1.17.16?/css/layouts/side-menu-old-ie.css">
+        <link rel="stylesheet" href="http://purecss.io/combo/1.17.16?/css/layouts/side-menu-old-ie.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="http://purecss.io/combo/1.17.16?/css/layouts/side-menu.css">
@@ -29,6 +30,18 @@
 a {
   text-decoration: none;
   color:#4d4d4d;
+}
+/* --------------------------
+ * Footer Module Styles
+ * --------------------------
+*/
+
+.footer {
+    font-size: 87.5%;
+    border-top: 1px solid #eee;
+    margin-top: 3.4286em;
+    padding: 1.1429em;
+    background: rgb(250, 250, 250);
 }
 </style>
 </head>

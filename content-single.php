@@ -14,17 +14,22 @@
 		<?php endif; ?>
 	</div><!-- .entry-header -->
 
+
 	<div class="content">
 		<?php the_content(); ?>
+	</div><!-- .entry-content -->
+
+	<div class="header"></div>
+	<div class="content">
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'purecss-io' ),
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div>
 
-	<footer class="entry-footer">
+	<div class="content">
 		<?php purecss_io_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</div><!-- .entry-footer -->
 </article><!-- #post-## -->
